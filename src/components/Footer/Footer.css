@@ -1,0 +1,19 @@
+.footer-container {
+    background-image: url('https://images.unsplash.com/photo-1624906811841-3b22f9c06d29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    padding: 20px 0;
+    color: white;
+    margin-top: 40px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+/* Aggiungi le regole per l'icona Instagram */
+.social-icons i {
+  margin-top: 10px;
+  font-size: 30px; /* Imposta la dimensione dell'icona */
+  color: white; /* Imposta il colore dell'icona su bianco */
+}

@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lobster Two', cursive;
+}
+
+h1 {
+  margin-top: 5px;
+  color: rgb(6, 6, 6);
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: rgb(255, 0, 0); /* Cambia il colore quando il mouse è sopra */
+  transform: scale(1.1); /* Effetto di ingrandimento */
+}
+h4{
+  color: rgb(9, 9, 9);
+}
+
+ul {
+  color: white;
+}
+
+body{
+  background: rgb(146,205,132);
+  background: radial-gradient(circle, rgba(146,205,132,1) 12%, rgba(255,255,255,1) 42%, rgba(115,204,94,1) 100%); 
+}
+
+
+.app {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+input[type='text'] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+
+@keyframes text-focus-in {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
+  font-weight: bold;
+}
+
+
+
+/* Animazione di testo in entrata */
+@keyframes text-focus-in {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both;
+  font-weight: bold;
+}
+
+/* Animazione sfocatura testo */
+@keyframes text-blur-out {
+  0% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.text-blur-out {
+  animation: text-blur-out 1s ease-in-out both;
+}
+
+
+/* Stili per il logo */
+.logo {
+  width: 100px; /* Imposta la larghezza del logo */
+  height: auto; /* Imposta l'altezza automatica per mantenere le proporzioni */
+  position: absolute; /* Posiziona il logo in modo assoluto */
+  top: 10px; /* Distanza dal bordo superiore */
+  left: 10px; /* Distanza dal bordo sinistro */
+}

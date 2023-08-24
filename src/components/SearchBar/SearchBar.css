@@ -1,0 +1,38 @@
+/* SearchBar.css */
+.search-bar-container{  
+  
+  background-image: url('https://images.unsplash.com/photo-1624906811841-3b22f9c06d29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: cover;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .search-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .search-button:hover {
+    background-color: #45A049;
+  }
+  
